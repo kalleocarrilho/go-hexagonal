@@ -2,12 +2,11 @@ package db_test
 
 import (
 	"database/sql"
-	"log"
-	"testing"
-
 	"github.com/kalleocarrilho/go-hexagonal/adapters/db"
 	"github.com/kalleocarrilho/go-hexagonal/application"
 	"github.com/stretchr/testify/require"
+	"log"
+	"testing"
 )
 
 var Db *sql.DB
